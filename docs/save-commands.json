@@ -1,0 +1,6 @@
+{
+	"commands": [
+		"**/*.rst : make html latexpdf",
+		"**/*.rst : cp _build/latex/softwareengineeringprinciples.pdf .."
+	]
+}
